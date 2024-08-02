@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--background-end-rgb));
+  background: #050920;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-family: "'Titillium Web', sans-serif"; */
+  /* color: "white"; */
+}
+
+/* App.css */
+.title h1::after {
+  content: "";
+  position: absolute;
+  width: 89px;
+  height: 100%;
+  transform: skew(-35deg);
+  right: -46px;
+  top: 0;
+  background-color: inherit;
+  z-index: 0;
+  /* border: 2px solid white; */
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

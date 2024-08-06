@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -7,12 +8,15 @@ export default function Header() {
     >
       <div className="container px-4 flex items-center flex-col items-start mx-auto md:flex-row">
         <Link href='/' className="flex items-center font-medium text-gray-900 title-font md:mb-0" style={{ width: '220px', height: '100px'}}>
-          <img src='/spotlight/logo1.png' style={{ width: '100%' }}/>
+          <Image src='/spotlight/logo1.png' alt="logo" style={{ width: '100%' }} width={1000} height={100}/>
         </Link>
         <nav className="flex items-center justify-center text-base md:ml-auto">
-          <a href="#_" className="mr-10 font-medium hover:text-gray-900">
+          <Link href="/" className="mr-10 font-medium hover:text-gray-900">
             Home
-          </a>
+          </Link>
+          <Link href="/dashboard" className="mr-10 font-medium hover:text-gray-900">
+            Dashboard
+          </Link>
           <a href="#_" className="mr-10 font-medium hover:text-gray-900">
             Album
           </a>

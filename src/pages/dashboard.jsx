@@ -355,7 +355,7 @@ export default function Dashboard() {
               </div>
               <div class="p-4 text-right">
                 <p class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600">
-                  Today's Money
+                  Today&apos;s Money
                 </p>
                 <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900">
                   $53k
@@ -386,7 +386,7 @@ export default function Dashboard() {
               </div>
               <div class="p-4 text-right">
                 <p class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600">
-                  Today's Users
+                  Today&apos;s Users
                 </p>
                 <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900">
                   2,300

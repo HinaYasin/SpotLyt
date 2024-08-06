@@ -30,10 +30,12 @@ export default function Home() {
     <>
       <div className="min-h-screen relative">
         <div class="absolute z-[1] inset-0 z-[1] overflow-hidden">
-          <img
+          <Image
             class="w-full h-full object-cover object-center"
             src="/spotlight/banner-bg.png"
-            alt=""
+            alt="background image"
+            width={1000}
+            height={100}
           />
         </div>
         <section class="min-h-screen relative z-[2] text-600 body-font">
@@ -71,8 +73,11 @@ export default function Home() {
                   class="flex sm:flex-row flex-col justify-end"
                   style={{ width: "96%" }}
                 >
-                  <img
+                  <Image
                     src="/spotlight/banner-artist.png"
+                    alt="banner-artist"
+                    width={1000}
+                    height={100}
                     style={{ width: "99%" }}
                   />
                 </div>
@@ -89,16 +94,16 @@ export default function Home() {
         <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-white">
-              <img src="/spotlight/spotify.png" />
+              <Image src="/spotlight/spotify.png" alt="spotify" width={150} height={100} />
             </div>
             <div>
-              <img src="/spotlight/music.png" />
+              <Image src="/spotlight/music.png" alt="music" width={150} height={100} />
             </div>
             <div>
-              <img src="/spotlight/tiktok.png" />
+              <Image src="/spotlight/tiktok.png" alt="tiktok" width={150} height={100} />
             </div>
             <div>
-              <img src="/spotlight/ytmusic.png" />
+              <Image src="/spotlight/ytmusic.png" alt="ytmusic" width={200} height={100}/>
             </div>
           </div>
         </div>
@@ -142,9 +147,12 @@ export default function Home() {
                   class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-4 align-center rounded sm:flex-row flex-col justify-end"
                   style={{ width: "100%" }}
                 >
-                  <img
+                  <Image
                     src="/spotlight/ABOUT.JPG"
+                    alt="about"
                     style={{ width: "100%", borderRadius: "10px" }}
+                    width={1000}
+                    height={100}
                   />
                 </div>
               </div>
@@ -318,8 +326,11 @@ export default function Home() {
                       class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-4 align-center rounded sm:flex-row flex-col justify-end"
                       style={{ width: "100%" }}
                     >
-                      <img
+                      <Image
                         src="/spotlight/pro2.jpg"
+                        alt="pro2"
+                        width={1000}
+                        height={100}
                         style={{ width: "100%", borderRadius: "10px" }}
                       />
                     </div>
@@ -339,8 +350,11 @@ export default function Home() {
                       class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-4 align-center rounded sm:flex-row flex-col justify-end"
                       style={{ width: "100%" }}
                     >
-                      <img
+                      <Image
                         src="/spotlight/pro1.jpg"
+                        alt="pro1"
+                        width={1000}
+                        height={100}
                         style={{ width: "100%", borderRadius: "10px" }}
                       />
                     </div>
@@ -360,8 +374,11 @@ export default function Home() {
                       class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-4 align-center rounded sm:flex-row flex-col justify-end"
                       style={{ width: "100%" }}
                     >
-                      <img
+                      <Image
                         src="/spotlight/pro3.jpg"
+                        alt="pro3"
+                        width={1000}
+                        height={100}
                         style={{ width: "100%", borderRadius: "10px" }}
                       />
                     </div>
@@ -411,8 +428,11 @@ export default function Home() {
             <div class="relative">
               <div class="relative z-10 grid gap-2 grid-cols-6">
                 <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl">
-                  <img
+                  <Image
                     src="/spotlight/band.jpg"
+                    alt="band"
+                    width={1000}
+                    height={100}
                     style={{ width: "100%", borderRadius: "22px" }}
                   />
                   <div class="mt-6 text-center relative z-10 space-y-2">
@@ -425,8 +445,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl">
-                  <img
+                  <Image
                     src="/spotlight/brand1.jpg"
+                    alt="band1"
+                    width={1000}
+                    height={100}
                     style={{ width: "100%", borderRadius: "22px" }}
                   />
                   <div class="mt-6 text-center relative z-10 space-y-2">
@@ -439,8 +462,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl">
-                  <img
+                  <Image
                     src="/spotlight/brand2.jpg"
+                    alt="band2"
+                    width={1000}
+                    height={100}
                     style={{ width: "100%", borderRadius: "22px" }}
                   />
                   <div class="mt-6 text-center relative z-10 space-y-2">
@@ -460,10 +486,12 @@ export default function Home() {
 
       <div className="relative h-full">
         <div class="absolute z-[1] inset-0 z-[1] overflow-hidden">
-          <img
+          <Image
             class="w-full h-full object-cover object-center"
             src="/spotlight/cta-background.jpg"
-            alt=""
+            alt="cta background"
+            width={1000}
+            height={100}
           />
         </div>
         <section class="relative z-[2] text-600 body-font mt-6">
@@ -512,13 +540,13 @@ export default function Home() {
                   <div className="py-1 mx-auto max-w-8xl sm:px-2">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
                       <div className="text-white">
-                        <img src="/spotlight/spotify.png" className="w-full" />
+                        <Image src="/spotlight/spotify.png" className="w-full" alt="spotify" width={1000} height={100} />
                       </div>
                       <div>
-                        <img src="/spotlight/music.png" className="w-full" />
+                        <Image src="/spotlight/music.png" className="w-full" alt="music" width={1000} height={100}/>
                       </div>
                       <div>
-                        <img src="/spotlight/tiktok.png" className="w-full" />
+                        <Image src="/spotlight/tiktok.png" className="w-full" alt="tiktok" width={1000} height={100}/>
                       </div>
                     </div>
                   </div>
@@ -545,8 +573,11 @@ export default function Home() {
             <div class="relative">
               <div class="relative z-10 grid gap-2 grid-cols-6">
                 <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl">
-                  <img
+                  <Image
                     src="/spotlight/post-01.jpg"
+                    alt="post-01"
+                    width={1000}
+                    height={100}
                     style={{ width: "100%", borderRadius: "22px" }}
                   />
                   <div class="mt-6 text-start relative z-10 space-y-2">
@@ -560,8 +591,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl">
-                  <img
+                  <Image
                     src="/spotlight/post-02.jpg"
+                    alt="post-02"
+                    width={1000}
+                    height={100}
                     style={{ width: "100%", borderRadius: "22px" }}
                   />
                   <div class="mt-6 text-start relative z-10 space-y-2">
@@ -574,8 +608,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl">
-                  <img
+                  <Image
                     src="/spotlight/post-03.jpg"
+                    alt="post-03"
+                    width={1000}
+                    height={100}
                     style={{ width: "100%", borderRadius: "22px" }}
                   />
                   <div class="mt-6 text-start relative z-10 space-y-2">

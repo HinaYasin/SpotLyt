@@ -15,7 +15,7 @@ export default function Footer() {
                 Louder Pro
               </a>
               <p className="w-1/1 mt-2 text-sm text-gray-500">
-                Louder Pro is not just an event organizer; it's a passionate
+                Louder Pro is not just an event organizer; it&apos;s a passionate
                 curator of live music experiences. It is dedicated to crafting
                 unforgettable moments.
               </p>

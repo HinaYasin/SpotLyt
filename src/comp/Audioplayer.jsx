@@ -1,5 +1,6 @@
 // src/AudioPlayer.js
 import React, { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 
 const audioFiles = [
   {
@@ -123,10 +124,12 @@ const AudioPlayer = () => {
               style={{ backgroundColor: "#00001F", color: "white" }}
             >
               <div className="w-full p-4">
-                <img
+                <Image
                   class="w-full rounded hidden md:block"
                   src="/spotlight/album-cover.jpg"
                   alt="Album Pic"
+                  width={1000}
+                  height={100}
                 />
               </div>
               <div class="w-full p-8">
@@ -141,6 +144,7 @@ const AudioPlayer = () => {
                 {audioFiles.map((audio, index) => (
                   <div
                     class="flex justify-between py-4 mt-5"
+                    key={index}
                     //   style={{ border: "2px solid white" }}
                   >
                     <div className="flex align-center justify-center gap-2">
